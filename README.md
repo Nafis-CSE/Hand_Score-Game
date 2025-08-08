@@ -17,7 +17,7 @@ A fun web-based cricket-style hand game where the user plays against the compute
 
 ## 🚀 Live Demo
 
-🔗 [Click here to play the game](https://Nafis-CSE.github.io/Hand_Score-Game/)
+🔗 [Click here to play the game](https://hand-score-game.vercel.app/)
 
 ---
 
