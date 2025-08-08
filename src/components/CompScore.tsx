@@ -45,11 +45,11 @@ const CompScore = ({ setAlert }: alertProp) => {
     }
   }, [score]);
   const playClickSound = () => {
-    const audio = new Audio("/btn-click.wav"); // public folder থেকে নিচ্ছে
+    const audio = new Audio(import.meta.env.BASE_URL + 'btn-click.wav'); // public folder থেকে নিচ্ছে
     audio.play();
   };
   const playOutSound = () => {
-    const audio = new Audio("/compout.wav"); // public folder থেকে নিচ্ছে
+    const audio = new Audio(import.meta.env.BASE_URL + 'compout.wav'); // public folder থেকে নিচ্ছে
     audio.play();
   };
   return (

@@ -20,11 +20,11 @@ const Userscore = ({ setAlert }: alertProp) => {
   console.log(toss);
   const navigate = useNavigate();
   const playLoseSound = () => {
-    const audio = new Audio("/btn-click.wav"); // public folder থেকে নিচ্ছে
+    const audio = new Audio(import.meta.env.BASE_URL + 'btn-click.wav'); // public folder থেকে নিচ্ছে
     audio.play();
   };
   const playOutSound = () => {
-    const audio = new Audio("/userout.wav"); // public folder থেকে নিচ্ছে
+    const audio = new Audio(import.meta.env.BASE_URL + 'userout.wav'); // public folder থেকে নিচ্ছে
     audio.play();
   };
   const handleClick = (num: number) => {

@@ -8,7 +8,7 @@ function Toss() {
   const [result, setresult] = useState(false);
   let tossResult = Math.floor(Math.random() * 2);
   const playLoseSound = () => {
-    const audio = new Audio("/flip-coin.mp3"); // public folder থেকে নিচ্ছে
+    const audio = new Audio(import.meta.env.BASE_URL + 'flip-coin.mp3'); // public folder থেকে নিচ্ছে
     audio.play();
   };
   const handleClick = () => {

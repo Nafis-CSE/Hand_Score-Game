@@ -8,11 +8,11 @@ const Result = () => {
 
   const { Compscore, Userscore } = location.state || {};
 const playWinSound = () => {
-  const audio = new Audio('/win.wav'); // public folder থেকে নিচ্ছে
+  const audio = new Audio(import.meta.env.BASE_URL + 'win.wav'); // public folder থেকে নিচ্ছে
   audio.play();
 };
 const playLoseSound = () => {
-  const audio = new Audio('/lose.mp3'); // public folder থেকে নিচ্ছে
+  const audio = new Audio(import.meta.env.BASE_URL + 'lose.mp3'); // public folder থেকে নিচ্ছে
   audio.play();
 };
   useEffect(() => {
