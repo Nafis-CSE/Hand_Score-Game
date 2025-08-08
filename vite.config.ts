@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Hand_Score-game/',
+  base: '/Hand_Score-Game/',
   plugins: [react()],
 })
