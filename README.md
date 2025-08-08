@@ -17,15 +17,15 @@ A fun web-based cricket-style hand game where the user plays against the compute
 
 ## 🚀 Live Demo
 
-🔗 [Click here to play the game](https://your-deployed-url.com)
+🔗 [Click here to play the game](https://Nafis-CSE.github.io/Hand_Score-Game/)
 
 ---
 
 ## ⚙️ Installation & Running Locally
 
 ```bash
-git clone https://github.com/your-username/hand-score-game.git
-cd hand-score-game
+git clone https://github.com/Nafis-CSE/Hand_Score-Game.git
+cd Hand-Score-Game
 npm install
 npm run dev
 ```
@@ -37,7 +37,7 @@ npm run dev
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS / Custom CSS]
+- [bootstrap CSS / Custom CSS]
 - [React Router]
 
 ---
