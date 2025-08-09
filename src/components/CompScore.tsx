@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import one from "../assets/one.png";
-import two from "../assets/two.png";
-import three from "../assets/three.png";
-import four from "../assets/four.png";
-import five from "../assets/five.png";
-import six from "../assets/six.png";
-import banner from "../assets/compscore.png";
+import one from "../assets/one.jpeg";
+import two from "../assets/two.jpeg";
+import three from "../assets/three.jpeg";
+import four from "../assets/four.jpeg";
+import five from "../assets/five.jpeg";
+import six from "../assets/six.jpeg";
+import banner from "../assets/compscore.jpeg";
 import { useLocation, useNavigate } from "react-router-dom";
 type alertProp = {
   setAlert: (alert: { type: string; msg: string }) => void;

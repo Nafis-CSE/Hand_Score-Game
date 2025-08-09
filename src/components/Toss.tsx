@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import coin from "../assets/coin.png";
-import banner from "../assets/toss.png";
+import coin from "../assets/coin.jpeg";
+import banner from "../assets/toss.jpeg";
 function Toss() {
   const [rotate, setrotate] = useState(false);
   const [result, setresult] = useState(false);

@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import "./Custom.css";
-import banner from "../assets/hands.png";
+import banner from "../assets/hands.jpeg";
 import { Link } from "react-router-dom";
 function Home() {
   return (

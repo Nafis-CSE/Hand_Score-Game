@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import { useLocation} from "react-router-dom";
 import { Link } from "react-router-dom";
-import banner from "../assets/result.png";
+import banner from "../assets/result.jpeg";
 import {useEffect} from 'react'
 const Result = () => {
   const location = useLocation();
